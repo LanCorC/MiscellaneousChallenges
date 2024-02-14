@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954b5ccd-201b-4880-bb6c-aa81aa31a893" name="Changes" comment="Rain Catcher: adjusted placement of Challenge Notes">
-      <change afterPath="$PROJECT_DIR$/src/TwoSum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="954b5ccd-201b-4880-bb6c-aa81aa31a893" name="Changes" comment="Two-Sum: completing the challenge (with single input demonstration)">
+      <change beforePath="$PROJECT_DIR$/src/TwoSum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoSum/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707883269553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Two-Sum: completing the challenge (with single input demonstration)">
+      <created>1707947195360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707947195360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rain Catcher: readability sacrificed for optimization" />
     <MESSAGE value="Rain Catcher: adjusted placement of Challenge Notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rain Catcher: adjusted placement of Challenge Notes" />
+    <MESSAGE value="Two-Sum: completing the challenge (with single input demonstration)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two-Sum: completing the challenge (with single input demonstration)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
