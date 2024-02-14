@@ -1,17 +1,14 @@
+//Challenge: Rain Catcher. The heights are how high the walls are. How many square units of water (2D) can be held in this container (array)?
+//expected output: 6
 package RainCatcher;
 
 import static java.lang.Integer.min;
 
 public class Main {
-    //for funsies
     public static void main(String[] args) {
         int[] heights = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
 
-        //expected output: 6
-
-        //Task: Rain Catcher. The heights are how high the walls are. How many square units of water (2D) can be held in this container (array)?
-
-        //Theorycraft - currentPos has a height. iterate through the array.
+        //Thought process - currentPos has a height. iterate through the array.
         //on each currentPos, scan all LEFT and RIGHT for a maxLeft, maxRight value.
         //if the walls maxLeft go BELOW or EQUAL, then spills, contains 0 at this position (vertical); skip loop. if the maxLeft is HIGHER than current position, that's a container wall.
         //if the walls maxRight go BELOW or EQUAL, then spills, contains 0 at this position (vertical); skip loop. if the maxRight is HIGHER than current position, that's a container wall.
@@ -25,6 +22,7 @@ public class Main {
             //if rightMax is lower, e.g. staircase, cannot hold. skip needing to iterate.
             //if rightMax is equal, cannot distinguish if currentPos = last, or of many;
 
+        //Further possible optimizations: remove repeated code?
 
         int sum = 0;
         int currentPos, leftMax, rightMax;

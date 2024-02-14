@@ -1,3 +1,5 @@
+//Challenge: Rain Catcher. The heights are how high the walls are. How many square units of water (2D) can be held in this container (array)?
+//expected output: 6
 package RainCatcher;
 
 import static java.lang.Integer.min;
@@ -5,8 +7,7 @@ import static java.lang.Integer.min;
 public class ReadableMain {
 
     public static void main(String[] args) {
-        //Challenge: Rain Catcher. The heights are how high the walls are. How many square units of water (2D) can be held in this container (array)?
-        //expected output: 6
+
         int[] heights = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
 
         //Thought process - currentPos has a height. iterate through the array.
@@ -53,8 +54,3 @@ public class ReadableMain {
         System.out.printf("%d\n", sum);
     }
 }
-
-//
-//    public int goLeft(int[] array, int height) {
-//
-//    }

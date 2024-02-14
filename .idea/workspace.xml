@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954b5ccd-201b-4880-bb6c-aa81aa31a893" name="Changes" comment="Rain Catcher: readability sacrificed for optimization">
-      <change afterPath="$PROJECT_DIR$/src/RainCatcher/ReadableMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RainCatcher/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RainCatcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RainCatcher/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RainCatcher/ReadableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RainCatcher/ReadableMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707882432436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rain Catcher: readability sacrificed for optimization">
+      <created>1707882901347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707882901347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,16 +106,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rain Catcher: readability sacrificed for optimization" />
     <option name="LAST_COMMIT_MESSAGE" value="Rain Catcher: readability sacrificed for optimization" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RainCatcher/Main.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
