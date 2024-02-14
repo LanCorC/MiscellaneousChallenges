@@ -1,3 +1,5 @@
+package RainCatcher;
+
 import static java.lang.Integer.min;
 
 public class Main {
@@ -30,7 +32,6 @@ public class Main {
         rightMax = heights[1];
 
         for (int i = 1; i < heights.length; i++) {
-//            rightMax = currentPos = heights[i];
             currentPos = heights[i];
 
             //Proceed codeblock if leftMax is still higher. it is unchanged
@@ -47,28 +48,16 @@ public class Main {
                 continue;
             }
 
-            //
+            //If rightMax is smaller, cannot contain liquid at currentPos. Skip.
             if (rightMax < currentPos) {
                 continue;
             } else if (rightMax > currentPos) {
+                //If rightMax is larger, can contain liquid at currentPos. Sum.
                 sum += min(rightMax, leftMax) - currentPos;
                 continue;
             }
 
-
-            //Go left
-//            for (int y = i-1; y != 0; y--) { //exit if y = 0; where y = current scanned item to the left of i
-//
-//                if (heights[y] > leftMax) {
-//                    leftMax = heights[y];
-//                }
-//            }
-
-//            if (leftMax < currentPos) {
-//                continue;
-//            }
-
-            //Go right
+            //From current position, work out rightMax, as it could not be distinguished from multiple or lone peak/s.
             rightMax = 0;
             for (int y = i+1; y != heights.length; y++) { //exit if y = 0; where y = current scanned item to the left of i
                 if (heights[y] > rightMax) {
@@ -87,8 +76,3 @@ public class Main {
 
     }
 }
-
-//
-//    public int goLeft(int[] array, int height) {
-//
-//    }
